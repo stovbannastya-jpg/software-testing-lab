@@ -1,2 +1,12 @@
-# software-testing-lab
-A repository for software testing laboratory assignments using JavaScript and Playwright.
+Практична робота: автоматизоване тестування вебсайту
+Вебсайт для тестування: https://www.atbmarket.com/
+Автоматизовані перевірки
+1. Перевірка HTTP-статусу 200 — сайт успішно відповідає на запит.
+2. Перевірка заголовка сторінки — назва сторінки містить «АТБ».
+3. Перевірка наявності тексту «Каталог» на сторінці.
+Як запустити тест
+1. Встановити Node.js та Playwright.
+2. Відкрити термінал у папці проєкту.
+3. Виконати команду:
+npx playwright test test.spec.js
+Інструмент штучного інтелекту: ChatGPT.
